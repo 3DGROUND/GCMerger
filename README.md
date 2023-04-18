@@ -33,8 +33,20 @@ You can safely add 3D models to your main scene and not worry:
 
 # Connect to account
 1. ![Get an Api Key in your profile Great Catalog site](https://greatcatalog.net/img/landing-merger-step-1.png)
-Get an Api Key in your profile [Great Catalog site](https://greatcatalog.net/)
+Get an Api Key in your profile [Great Catalog site](https://greatcatalog.net/en/profile/api-key/)
 2. ![You are required to enter an Api Key, when you run the script for the first time](https://greatcatalog.net/img/landing-merger-step-2.png)
 You are required to enter an Api Key, when you run the script for the first time
 3. ![You will see your favorite models. Done, have fun )](https://greatcatalog.net/img/landing-merger-step-3.png)
 You will see your favorite models.Done, have fun )
+
+# GC Merger Notes
+* All 3D models on the site are specially adapted and prepared for easy and trouble-free insertion into the scene. GC-XXXXX-2019.max
+* Minimum requirements for running GC Merger: 3ds max 2019 and Windows 10.
+* You can download dozens of 3D models at once and continue to work in parallel, while 3ds max will not experience any load.
+* By default all 3D models are downloaded to the “C:/temp/GC/” folder, change this path in the settings if necessary.
+* All textures and assets have absolute paths and are referenced by default to the drive “C:/temp/GC/”. If necessary, transfer textures to your project using Resource Collector, Collect Asset and other scripts. Or use the built-in tools in 3ds max: Utilities  More  Bitmap/Photometric Paths  Edit Resources.
+* If, for some reason, the Great Catalog Favorites page is not displayed and you see an error page, make sure that your computer does not have 3ds max related locks in Windows Firewall. For corporate networks, we recommend that you contact your Administrator.
+* Downloaded models can take up GBs of disk space, please make sure you have enough space for the downloaded content.
+
+# Need more info?
+[Go to official Great Catalog Site](https://greatcatalog.net/en/3dmax-merger/)
